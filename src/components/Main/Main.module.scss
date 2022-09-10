@@ -1,0 +1,26 @@
+@import '../../styles/variables';
+
+.wrapper {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.head {
+  align-items: center;
+  display: flex;
+}
+.todos {
+  margin-top: 65px;
+  display: grid;
+  gap: 15px;
+}
+.noTasks {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 64px;
+  opacity: 0.3;
+}
+@media (max-width: 480px) {
+  .noTasks {
+    font-size: 34px;
+  }
+}

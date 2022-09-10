@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.button {
+  background-color: $c-dark-gunmetal;
+  box-shadow: 1px 15px 20px $c-onyx;
+  color: $c-bright-gray;
+  border-radius: 6px;
+  width: fit-content;
+  padding: 0 30px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 55px;
+}
+.button:active {
+  transform: scale(0.9);
+}
